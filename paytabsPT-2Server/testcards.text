@@ -1,0 +1,10 @@
+﻿TESTS CARDS
+Number	            Scheme	    CVV	  3D enrolled
+4000000000000002	Visa	    123	
+4111111111111111	Visa	    123	       x
+4012001036983332	Visa	    530	
+5498383801606532	MasterCard	977	
+5200000000000007	MasterCard	977	
+5200000000000114	MasterCard	977			x
+
+//all the others 3d support
