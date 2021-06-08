@@ -25,33 +25,33 @@ namespace paytabsPT_2Server.Controllers {
             CustomerDetails customerDetail = new CustomerDetails();
             ShippingDetails shippingDetail = new ShippingDetails();
 
-            customerDetail.city = "dubai";
-            customerDetail.country = "AE";
+            customerDetail.city = "khartoum";
+            customerDetail.country = "SD";
             customerDetail.email = "omairsudan@gmail.com";
             customerDetail.name = "omair sudan";
-            customerDetail.phone = "0523506338";
-            customerDetail.state = "du";
+            customerDetail.phone = "249123506338";
+            customerDetail.state = "SD";
             customerDetail.street1 = "oumdum";
-            customerDetail.zip = "12345";
+            customerDetail.zip = "11111";
 
-            shippingDetail.city = "dubai";
-            shippingDetail.country = "AE";
+            shippingDetail.city = "khartoum";
+            shippingDetail.country = "SD";
             shippingDetail.email = "omairsudan1@gmail.com";
             shippingDetail.name = "omair sudan1";
-            shippingDetail.phone = "971555555555";
-            shippingDetail.state = "dubai";
+            shippingDetail.phone = "249123506338";
+            shippingDetail.state = "SD";
             shippingDetail.street1 = "oumdum2";
-            shippingDetail.zip = "54321";
+            shippingDetail.zip = "11111";
 
-            payPage.callback = "https://webhook.site/af7bd834-9a82-4316-8b80-542a93d4a83a";
+            payPage.callback = "https://webhook.site/a95de523-02b6-4cec-8418-dcb24845b2fb";
             payPage.cart_amount = 1;
-            payPage.cart_currency = "AED";
+            payPage.cart_currency = "USD";
             payPage.cart_description = "Description of the items/services";
             payPage.cart_id = "cart_11111";
             payPage.customer_details = customerDetail;
             payPage.paypage_lang = "en";
-            payPage.profile_id = "70011";
-            payPage.@return = "https://localhost";
+            payPage.profile_id = 70011;
+            payPage.@return = "https://webhook.site/a95de523-02b6-4cec-8418-dcb24845b2fb";
             payPage.shipping_details = shippingDetail;
             payPage.tran_class = "ecom";
             payPage.tran_type = "sale";
